@@ -1,0 +1,105 @@
+#loanParticulars{
+	width:100%;
+	height:100%;
+	.loanParticulars{
+		border: solid 1px #cccccc;
+		border-top: solid 2px #1f45e9;
+		font-size: 16px;
+		background: #fff;
+		min-height: 500px;
+		.title{
+			height: 40px;
+			line-height:40px;
+			.goback {
+				text-align: center;
+				cursor: pointer;
+			}
+			.particular {
+				text-align: center;
+			}
+		}
+		.health{
+			width:95%;
+			height:96px;
+			margin:12px auto;
+			border-width: 1px; 
+			border-color: #ccc; 
+			border-radius: 4px;
+			legend{
+				color: #1f45e9;
+				margin-left: 27px;
+				padding:0 5px;
+			}
+			.healtha{
+				height:40px;
+				line-height: 40px; 
+				.name{
+					padding-left: 3%;
+				}
+			}
+			.healthb{
+				height:30px;
+				line-height: 30px; 
+				font-size: 14px;
+				color: #1f45e9;
+				text-align: right;
+    			padding-right: 5%;
+			}
+		}
+		.basic{
+			width:95%;
+			height:132px;
+			margin:12px auto;
+			border-width: 1px; 
+			border-color: #ccc; 
+			border-radius: 4px;
+			legend{
+				color: #1f45e9;
+				margin-left: 27px;
+				padding:0 5px;
+			}
+			.basica{
+				p{
+					height:35px;
+					line-height: 35px; 
+					padding-left: 5%;
+				}
+			}
+			.basicb{
+				p{
+					height:35px;
+					line-height: 35px; 
+				}
+			}
+
+		}
+		.credit{
+			width:95%;
+			height:264px;
+			margin:12px auto;
+			border-width: 1px; 
+			border-color: #ccc; 
+			border-radius: 4px;
+			legend{
+				color: #1f45e9;
+				margin-left: 27px;
+				padding:0 5px;
+			}
+			.credita{
+				border-bottom: solid 1px #cccccc;
+			}
+			.credita, .creditb{
+				height:118px;
+				p{
+					height:35px;
+					line-height: 35px; 
+					padding-left: 3%;
+					span{
+						padding-left: 25%;
+					}
+				}
+			}
+		}
+	}
+	
+}

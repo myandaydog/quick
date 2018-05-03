@@ -1,0 +1,95 @@
+.layout{
+        border: 1px solid #d7dde4;
+        .layout-logo{
+            width: 100px;
+            height: 30px;
+            background: #5b6270;
+            border-radius: 3px;
+            float: left;
+            position: relative;
+            top: 15px;
+            left: 20px;
+            display: inline-block;
+        }
+        .layout-nav{
+            width: 420px;
+            height: 60px;
+            margin: 0 0 0 150px;
+            display: inline-block;
+            border-right: none;
+            // li:nth-child(1){
+            //     background: #395EFF;
+            //     color: #fff;
+            // }
+            li:hover{
+                background: #395EFF;
+            }
+            li span{
+                color: #fff;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+            .active{
+                background: #395EFF;
+            }
+        }
+        .layout-user{
+            width:200px;
+            height: 60px;
+            display: inline-block;
+            float: right;
+            color: #fff;
+            span{
+                cursor: pointer;
+            }
+        }
+    .layout-content{
+        padding: 15px;
+        background: #F4F4F4;
+        position: absolute;
+        top: 60px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: auto;
+        .left-nav{
+            text-align: center;
+            background: #fff;
+            li{
+                padding: 0;
+            }
+            li span{
+                color: #000;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                padding: 14px 24px;
+            }
+            // li:nth-child(1){
+            //     background: #395EFF;
+            //     a{
+            //         color: #fff;
+            //     }
+            // }
+            .active{
+                background: #395EFF;
+                span{
+                    color: #fff;
+                }
+            }
+            li:hover{
+                background: #395EFF;
+                span{
+                    color: #fff;
+                }
+            }
+            
+        }
+        .layout-content-main{
+            padding: 10px 30px 0 30px;
+        }
+    }
+}
+    
+    

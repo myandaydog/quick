@@ -1,0 +1,9 @@
+.registerPro{
+    height:100%;
+    .content{
+        width:100%;
+        height:calc(100% - 40px);
+        -webkit-overflow-scrolling:touch;
+        overflow: scroll;
+    }
+}
